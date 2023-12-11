@@ -1,0 +1,17 @@
+<usereventscript scriptid="customscript_add_escalation_buttons">
+    <name>Add Escalation Workflow Buttons</name>
+    <notifyowner>T</notifyowner>
+    <scriptfile>[/SuiteScripts/add-escalation-workflow-buttons.js]</scriptfile>
+    <scriptdeployments>
+             <scriptdeployment scriptid="customdeploy_add_escalation_buttons">
+                <isdeployed>T</isdeployed>
+                <loglevel>DEBUG</loglevel>
+                <recordtype>SALESORDER</recordtype>
+                <status>RELEASED</status>
+                <allemployees>T</allemployees>
+                <allroles>T</allroles>
+             </scriptdeployment>
+       </scriptdeployments>
+</usereventscript> 
+
+      
