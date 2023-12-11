@@ -1,5 +1,5 @@
 <transactionbodycustomfield scriptid="custbody_escalation_status_display">
-  <accesslevel>1</accesslevel>
+  <accesslevel>2</accesslevel>
   <applyformatting>F</applyformatting>
   <bodyassemblybuild>F</bodyassemblybuild>
   <bodybom>F</bodybom>
@@ -60,11 +60,4 @@
   <sourcelist></sourcelist>
   <storevalue>F</storevalue>
   <subtab></subtab>
-  <roleaccesses>
-    <roleaccess>
-      <accesslevel>2</accesslevel>
-      <role>ADMINISTRATOR</role>
-      <searchlevel>2</searchlevel>
-    </roleaccess>
-  </roleaccesses>
 </transactionbodycustomfield>
